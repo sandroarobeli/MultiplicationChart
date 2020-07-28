@@ -1,0 +1,385 @@
+<!--   HTML utilizes Flexbox. Container is composed of buttons as basic 
+elements. Buttons are wired to functions that fire on mouseover
+events. However, to trigger the sound play, one initial click is necessary. As of now, the reasons for such behaviour are unclear to me.   -->
+
+
+<div class='flex-table'>
+   <h2 class='table-title'>Multiplication Table</h2>
+   <div class='table-row'>
+      <button class='item header'></button>
+      <button class='item header'>1</button>
+      <button class='item header'>2</button>
+      <button class='item header'>3</button>
+      <button class='item header'>4</button>
+      <button class='item header'>5</button>
+      <button class='item header'>6</button>
+      <button class='item header'>7</button>
+      <button class='item header'>8</button>
+      <button class='item header'>9</button>
+   </div>
+   <div class='table-row'>
+      <button class='item header'>1</button>
+      <button class='item core' onmouseover='onePlay()'>1</button>
+      <button class='item core' onmouseover='twoPlay()'>2</button>
+      <button class='item core' onmouseover='threePlay()'>3</button>
+      <button class='item core' onmouseover='fourPlay()'>4</button>
+      <button class='item core' onmouseover='fivePlay()'>5</button>
+      <button class='item core' onmouseover='sixPlay()'>6</button>
+      <button class='item core' onmouseover='sevenPlay()'>7</button>
+      <button class='item core' onmouseover='eightPlay()'>8</button>
+      <button class='item core' onmouseover='ninePlay()'>9</button>
+    </div>
+   	<div class='table-row'>
+      <button class='item header'>2</button>
+      <button class='item core' onmouseover='twoPlay()'>2</button>
+      <button class='item core' onmouseover='fourPlay()'>4</button>
+      <button class='item core' onmouseover='sixPlay()'>6</button>
+      <button class='item core' onmouseover='eightPlay()'>8</button>
+      <button class='item core' onmouseover='tenPlay()'>10</button>
+      <button class='item core' onmouseover='twelvePlay()'>12</button>
+      <button class='item core' onmouseover='fourteenPlay()'>14</button>
+      <button class='item core' onmouseover='sixteenPlay()'>16</button>
+      <button class='item core' onmouseover='eighteenPlay()'>18</button>
+    </div>
+    <div class='table-row'>
+      <button class='item header'>3</button>
+      <button class='item core' onmouseover='threePlay()'>3</button>
+      <button class='item core' onmouseover='sixPlay()'>6</button>
+      <button class='item core' onmouseover='ninePlay()'>9</button>
+      <button class='item core' onmouseover='twelvePlay()'>12</button>
+      <button class='item core' onmouseover='fifteenPlay()'>15</button>
+      <button class='item core' onmouseover='eighteenPlay()'>18</button>
+      <button class='item core' onmouseover='twentyonePlay()'>21</button>
+      <button class='item core' onmouseover='twentyfourPlay()'>24</button>
+      <button class='item core' onmouseover='twentysevenPlay()'>27</button>
+    </div>
+    <div class='table-row'>
+      <button class='item header'>4</button>
+      <button class='item core' onmouseover='fourPlay()'>4</button>
+      <button class='item core' onmouseover='eightPlay()'>8</button>
+      <button class='item core' onmouseover='twelvePlay()'>12</button>
+      <button class='item core' onmouseover='sixteenPlay()'>16</button>
+      <button class='item core' onmouseover='twentyPlay()'>20</button>
+      <button class='item core' onmouseover='twentyfourPlay()'>24</button>
+      <button class='item core' onmouseover='twentyeightPlay()'>28</button>
+      <button class='item core' onmouseover='thirtytwoPlay()'>32</button>
+      <button class='item core' onmouseover='thirtysixPlay()'>36</button>
+    </div>
+    <div class='table-row'>
+      <button class='item header'>5</button>
+      <button class='item core' onmouseover='fivePlay()'>5</button>
+      <button class='item core' onmouseover='tenPlay()'>10</button>
+      <button class='item core' onmouseover='fifteenPlay()'>15</button>
+      <button class='item core' onmouseover='twentyPlay()'>20</button>
+      <button class='item core' onmouseover='twentyfivePlay()'>25</button>
+      <button class='item core' onmouseover='thirtyPlay()'>30</button>
+      <button class='item core' onmouseover='thirtyfivePlay()'>35</button>
+      <button class='item core' onmouseover='fourtyPlay()'>40</button>
+      <button class='item core' onmouseover='fourtyfivePlay()'>45</button>
+    </div>
+    <div class='table-row'>
+      <button class='item header'>6</button>
+      <button class='item core' onmouseover='sixPlay()'>6</button>
+      <button class='item core' onmouseover='twelvePlay()'>12</button>
+      <button class='item core' onmouseover='eighteenPlay()'>18</button>
+      <button class='item core' onmouseover='twentyfourPlay()'>24</button>
+      <button class='item core' onmouseover='thirtyPlay()'>30</button>
+      <button class='item core' onmouseover='thirtysixPlay()'>36</button>
+      <button class='item core' onmouseover='fourtytwoPlay()'>42</button>
+      <button class='item core' onmouseover='fourtyeightPlay()'>48</button>
+      <button class='item core' onmouseover='fiftyfourPlay()'>54</button>
+    </div>
+    <div class='table-row'>
+      <button class='item header'>7</button>
+      <button class='item core' onmouseover='sevenPlay()'>7</button>
+      <button class='item core' onmouseover='fourteenPlay()'>14</button>
+      <button class='item core' onmouseover='twentyonePlay()'>21</button>
+      <button class='item core' onmouseover='twentyeightPlay()'>28</button>
+      <button class='item core' onmouseover='thirtyfivePlay()'>35</button>
+      <button class='item core' onmouseover='fourtytwoPlay()'>42</button>
+      <button class='item core' onmouseover='fourtyninePlay()'>49</button>
+      <button class='item core' onmouseover='fiftysixPlay()'>56</button>
+      <button class='item core' onmouseover='sixtythreePlay()'>63</button>
+    </div>
+    <div class='table-row'>
+      <button class='item header'>8</button>
+      <button class='item core' onmouseover='eightPlay()'>8</button>
+      <button class='item core' onmouseover='sixteenPlay()'>16</button>
+      <button class='item core' onmouseover='twentyfourPlay()'>24</button>
+      <button class='item core' onmouseover='thirtytwoPlay()'>32</button>
+      <button class='item core' onmouseover='fourtyPlay()'>40</button>
+      <button class='item core' onmouseover='fourtyeightPlay()'>48</button>
+      <button class='item core' onmouseover='fiftysixPlay()'>56</button>
+      <button class='item core' onmouseover='sixtyfourPlay()'>64</button>
+      <button class='item core' onmouseover='seventytwoPlay()'>72</button>
+    </div>
+    <div class='table-row'>
+      <button class='item header'>9</button>
+      <button class='item core' onmouseover='ninePlay()'>9</button>
+      <button class='item core' onmouseover='eighteenPlay()'>18</button>
+      <button class='item core' onmouseover='twentysevenPlay()'>27</button>
+      <button class='item core' onmouseover='thirtysixPlay()'>36</button>
+      <button class='item core' onmouseover='fourtyfivePlay()'>45</button>
+      <button class='item core' onmouseover='fiftyfourPlay()'>54</button>
+      <button class='item core' onmouseover='sixtythreePlay()'>63</button>
+      <button class='item core' onmouseover='seventytwoPlay()'>72</button>
+      <button class='item core' onmouseover='eightyonePlay()'>81</button>
+    </div>
+</div>
+
+
+<!-- CSS  -->
+<!-- media accomodates two additional viewport sizes -->
+<style>
+    
+    .flex-table {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: 100%;    
+       margin: 0 auto; 
+       align-items: center;
+       justify-content: center;   
+      }
+
+    /* Mobile phones */
+    @media screen and (max-width: 767px){
+       .flex-table {
+          transform: scale(0.60);
+       }
+    }
+    /* Tablets and iPads */
+    @media screen and (min-width: 768px) and (max-width: 1023px){
+       .flex-table {
+          transform: scale(0.8);
+       }
+    }
+    .table-title {
+    	color: #3F51B5;
+        font-style: italic;
+        text-align: center;
+    }
+    
+    .table-row {
+       display: flex;
+       flex-direction: row;    
+       align-items: center;
+       justify-content: space-between;    
+    }
+    
+    .item {
+       margin: 0.1rem 0.1rem;
+       width: 6rem;
+       height: 6rem;  
+       background-color: #3F51B5; 
+       color: white;
+       font-weight: 600;  
+       border-radius: 0.2rem;
+       box-shadow: 0 0 1rem 0.25rem; 
+       transition-duration: 0.2s;
+   }
+    .header {
+    	background-color: #5698a9;
+       
+    }
+    
+    .core:hover { 
+        transform: scale(1.3);
+        z-index: 9;
+    }
+
+</style>
+
+<!-- JavaScript consists of functions creating audio objects representing each number in the table. Clicking on a button triggers play method vocalizing its numeric value-->
+
+<script>
+    // 1 
+  function onePlay() {
+   	const one = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/1.wav')
+    one.currentTime = 0
+    one.play()
+   }
+  function twoPlay() {
+   	const two = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/2.wav')
+    two.currentTime = 0
+    two.play()
+   } 
+  function threePlay() {
+   	const three = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/3.wav')
+    three.currentTime = 0
+    three.play()
+   }
+  function fourPlay() {
+   	const four = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/4.wav')
+    four.currentTime = 0
+    four.play()
+   }  
+  function fivePlay() {
+   	const five = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/5.wav')
+    five.currentTime = 0
+    five.play()
+   }  
+    function sixPlay() {
+   	const six = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/6.wav')
+    six.currentTime = 0
+    six.play()
+   }  
+    function sevenPlay() {
+   	const seven = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/7.wav')
+    seven.currentTime = 0
+    seven.play()
+   }  
+    function eightPlay() {
+   	const eight = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/8.wav')
+    eight.currentTime = 0
+    eight.play()
+   }  
+    function ninePlay() {
+   	const nine = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/9.wav')
+    nine.currentTime = 0
+    nine.play()
+   }  
+  // 2 
+ function tenPlay() {
+   	const ten = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/10.wav')
+    ten.currentTime = 0
+    ten.play()
+   }  
+ function twelvePlay() {
+   	const twelve = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/12.wav')
+    twelve.currentTime = 0
+    twelve.play()
+   }  
+ function fourteenPlay() {
+   	const fourteen = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/14.wav')
+    fourteen.currentTime = 0
+    fourteen.play()
+   }  
+ function sixteenPlay() {
+   	const sixteen = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/16.wav')
+    sixteen.currentTime = 0
+    sixteen.play()
+   }  
+  function eighteenPlay() {
+   	const eighteen = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/18.wav')
+    eighteen.currentTime = 0
+    eighteen.play()
+   }    
+ // 3
+function fifteenPlay() {
+   	const fifteen = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/15.wav')
+    fifteen.currentTime = 0
+    fifteen.play()
+   }  
+function twentyonePlay() {
+   	const twentyone = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/21.wav')
+    twentyone.currentTime = 0
+    twentyone.play()
+   }  
+ function twentyfourPlay() {
+   	const twentyfour = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/24.wav')
+    twentyfour.currentTime = 0
+    twentyfour.play()
+   }  
+ function twentysevenPlay() {
+   	const twentyseven = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/27.wav')
+    twentyseven.currentTime = 0
+    twentyseven.play()
+   }  
+ // 4
+ function twentyPlay() {
+   	const twenty = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/20.wav')
+    twenty.currentTime = 0
+    twenty.play()
+   }  
+ function twentyeightPlay() {
+   	const twentyeight = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/28.wav')
+    twentyeight.currentTime = 0
+    twentyeight.play()
+   }  
+ function thirtytwoPlay() {
+   	const thirtytwo = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/32.wav')
+    thirtytwo.currentTime = 0
+    thirtytwo.play()
+   }  
+  function thirtysixPlay() {
+   	const thirtysix = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/36.wav')
+    thirtysix.currentTime = 0
+    thirtysix.play()
+   }  
+ // 5
+ function twentyfivePlay() {
+   	const twentyfive = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/25.wav')
+    twentyfive.currentTime = 0
+    twentyfive.play()
+   }  
+ function thirtyPlay() {
+   	const thirty = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/30.wav')
+    thirty.currentTime = 0
+    thirty.play()
+   }  
+  function thirtyfivePlay() {
+   	const thirtyfive = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/35.wav')
+    thirtyfive.currentTime = 0
+    thirtyfive.play()
+   }  
+  function fourtyPlay() {
+   	const fourty = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/40.wav')
+    fourty.currentTime = 0
+    fourty.play()
+   }  
+  function fourtyfivePlay() {
+   	const fourtyfive = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/45.wav')
+    fourtyfive.currentTime = 0
+    fourtyfive.play()
+   }    
+ // 6
+ function fourtytwoPlay() {
+   	const fourtytwo = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/42.wav')
+    fourtytwo.currentTime = 0
+    fourtytwo.play()
+   }  
+ function fourtyeightPlay() {
+   	const fourtyeight = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/48.wav')
+    fourtyeight.currentTime = 0
+    fourtyeight.play()
+   }  
+  function fiftyfourPlay() {
+   	const fiftyfour = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/54.wav')
+    fiftyfour.currentTime = 0
+    fiftyfour.play()
+   }    
+ // 7
+ function fourtyninePlay() {
+   	const fourtynine = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/49.wav')
+    fourtynine.currentTime = 0
+    fourtynine.play()
+   }  
+ function fiftysixPlay() {
+   	const fiftysix = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/56.wav')
+    fiftysix.currentTime = 0
+    fiftysix.play()
+   }  
+  function sixtythreePlay() {
+   	const sixtythree = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/63.wav')
+    sixtythree.currentTime = 0
+    sixtythree.play()
+   }    
+ // 8
+ function sixtyfourPlay() {
+   	const sixtyfour = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/64.wav')
+    sixtyfour.currentTime = 0
+    sixtyfour.play()
+   }   
+  function seventytwoPlay() {
+   	const seventytwo = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/72.wav')
+    seventytwo.currentTime = 0
+    seventytwo.play()
+   }   
+ // 9
+  function eightyonePlay() {
+   	const eightyone = new 			Audio('https://evolution.voxeo.com/library/audio/prompts/numbers/81.wav')
+    eightyone.currentTime = 0
+    eightyone.play()
+   }      
+</script>

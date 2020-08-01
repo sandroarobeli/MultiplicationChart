@@ -1,6 +1,6 @@
 <!--   HTML utilizes Flexbox. Container is composed of buttons as basic 
-elements. Buttons are wired to functions that fire on mouseover
-events. However, to trigger the sound play, one initial click is necessary. As of now, the reasons for such behaviour are unclear to me.   -->
+elements. Buttons are wired to functions that fire with click
+events.   -->
 
 
 <div class='flex-table'>
@@ -19,111 +19,111 @@ events. However, to trigger the sound play, one initial click is necessary. As o
    </div>
    <div class='table-row'>
       <button class='item header'>1</button>
-      <button class='item core' onmouseover='onePlay()'>1</button>
-      <button class='item core' onmouseover='twoPlay()'>2</button>
-      <button class='item core' onmouseover='threePlay()'>3</button>
-      <button class='item core' onmouseover='fourPlay()'>4</button>
-      <button class='item core' onmouseover='fivePlay()'>5</button>
-      <button class='item core' onmouseover='sixPlay()'>6</button>
-      <button class='item core' onmouseover='sevenPlay()'>7</button>
-      <button class='item core' onmouseover='eightPlay()'>8</button>
-      <button class='item core' onmouseover='ninePlay()'>9</button>
+      <button class='item core' onclick='onePlay()'>1</button>
+      <button class='item core' onclick='twoPlay()'>2</button>
+      <button class='item core' onclick='threePlay()'>3</button>
+      <button class='item core' onclick='fourPlay()'>4</button>
+      <button class='item core' onclick='fivePlay()'>5</button>
+      <button class='item core' onclick='sixPlay()'>6</button>
+      <button class='item core' onclick='sevenPlay()'>7</button>
+      <button class='item core' onclick='eightPlay()'>8</button>
+      <button class='item core' onclick='ninePlay()'>9</button>
     </div>
    	<div class='table-row'>
       <button class='item header'>2</button>
-      <button class='item core' onmouseover='twoPlay()'>2</button>
-      <button class='item core' onmouseover='fourPlay()'>4</button>
-      <button class='item core' onmouseover='sixPlay()'>6</button>
-      <button class='item core' onmouseover='eightPlay()'>8</button>
-      <button class='item core' onmouseover='tenPlay()'>10</button>
-      <button class='item core' onmouseover='twelvePlay()'>12</button>
-      <button class='item core' onmouseover='fourteenPlay()'>14</button>
-      <button class='item core' onmouseover='sixteenPlay()'>16</button>
-      <button class='item core' onmouseover='eighteenPlay()'>18</button>
+      <button class='item core' onclick='twoPlay()'>2</button>
+      <button class='item core' onclick='fourPlay()'>4</button>
+      <button class='item core' onclick='sixPlay()'>6</button>
+      <button class='item core' onclick='eightPlay()'>8</button>
+      <button class='item core' onclick='tenPlay()'>10</button>
+      <button class='item core' onclick='twelvePlay()'>12</button>
+      <button class='item core' onclick='fourteenPlay()'>14</button>
+      <button class='item core' onclick='sixteenPlay()'>16</button>
+      <button class='item core' onclick='eighteenPlay()'>18</button>
     </div>
     <div class='table-row'>
       <button class='item header'>3</button>
-      <button class='item core' onmouseover='threePlay()'>3</button>
-      <button class='item core' onmouseover='sixPlay()'>6</button>
-      <button class='item core' onmouseover='ninePlay()'>9</button>
-      <button class='item core' onmouseover='twelvePlay()'>12</button>
-      <button class='item core' onmouseover='fifteenPlay()'>15</button>
-      <button class='item core' onmouseover='eighteenPlay()'>18</button>
-      <button class='item core' onmouseover='twentyonePlay()'>21</button>
-      <button class='item core' onmouseover='twentyfourPlay()'>24</button>
-      <button class='item core' onmouseover='twentysevenPlay()'>27</button>
+      <button class='item core' onclick='threePlay()'>3</button>
+      <button class='item core' onclick='sixPlay()'>6</button>
+      <button class='item core' onclick='ninePlay()'>9</button>
+      <button class='item core' onclick='twelvePlay()'>12</button>
+      <button class='item core' onclick='fifteenPlay()'>15</button>
+      <button class='item core' onclick='eighteenPlay()'>18</button>
+      <button class='item core' onclick='twentyonePlay()'>21</button>
+      <button class='item core' onclick='twentyfourPlay()'>24</button>
+      <button class='item core' onclick='twentysevenPlay()'>27</button>
     </div>
     <div class='table-row'>
       <button class='item header'>4</button>
-      <button class='item core' onmouseover='fourPlay()'>4</button>
-      <button class='item core' onmouseover='eightPlay()'>8</button>
-      <button class='item core' onmouseover='twelvePlay()'>12</button>
-      <button class='item core' onmouseover='sixteenPlay()'>16</button>
-      <button class='item core' onmouseover='twentyPlay()'>20</button>
-      <button class='item core' onmouseover='twentyfourPlay()'>24</button>
-      <button class='item core' onmouseover='twentyeightPlay()'>28</button>
-      <button class='item core' onmouseover='thirtytwoPlay()'>32</button>
-      <button class='item core' onmouseover='thirtysixPlay()'>36</button>
+      <button class='item core' onclick='fourPlay()'>4</button>
+      <button class='item core' onclick='eightPlay()'>8</button>
+      <button class='item core' onclick='twelvePlay()'>12</button>
+      <button class='item core' onclick='sixteenPlay()'>16</button>
+      <button class='item core' onclick='twentyPlay()'>20</button>
+      <button class='item core' onclick='twentyfourPlay()'>24</button>
+      <button class='item core' onclick='twentyeightPlay()'>28</button>
+      <button class='item core' onclick='thirtytwoPlay()'>32</button>
+      <button class='item core' onclick='thirtysixPlay()'>36</button>
     </div>
     <div class='table-row'>
       <button class='item header'>5</button>
-      <button class='item core' onmouseover='fivePlay()'>5</button>
-      <button class='item core' onmouseover='tenPlay()'>10</button>
-      <button class='item core' onmouseover='fifteenPlay()'>15</button>
-      <button class='item core' onmouseover='twentyPlay()'>20</button>
-      <button class='item core' onmouseover='twentyfivePlay()'>25</button>
-      <button class='item core' onmouseover='thirtyPlay()'>30</button>
-      <button class='item core' onmouseover='thirtyfivePlay()'>35</button>
-      <button class='item core' onmouseover='fourtyPlay()'>40</button>
-      <button class='item core' onmouseover='fourtyfivePlay()'>45</button>
+      <button class='item core' onclick='fivePlay()'>5</button>
+      <button class='item core' onclick='tenPlay()'>10</button>
+      <button class='item core' onclick='fifteenPlay()'>15</button>
+      <button class='item core' onclick='twentyPlay()'>20</button>
+      <button class='item core' onclick='twentyfivePlay()'>25</button>
+      <button class='item core' onclick='thirtyPlay()'>30</button>
+      <button class='item core' onclick='thirtyfivePlay()'>35</button>
+      <button class='item core' onclick='fourtyPlay()'>40</button>
+      <button class='item core' onclick='fourtyfivePlay()'>45</button>
     </div>
     <div class='table-row'>
       <button class='item header'>6</button>
-      <button class='item core' onmouseover='sixPlay()'>6</button>
-      <button class='item core' onmouseover='twelvePlay()'>12</button>
-      <button class='item core' onmouseover='eighteenPlay()'>18</button>
-      <button class='item core' onmouseover='twentyfourPlay()'>24</button>
-      <button class='item core' onmouseover='thirtyPlay()'>30</button>
-      <button class='item core' onmouseover='thirtysixPlay()'>36</button>
-      <button class='item core' onmouseover='fourtytwoPlay()'>42</button>
-      <button class='item core' onmouseover='fourtyeightPlay()'>48</button>
-      <button class='item core' onmouseover='fiftyfourPlay()'>54</button>
+      <button class='item core' onclick='sixPlay()'>6</button>
+      <button class='item core' onclick='twelvePlay()'>12</button>
+      <button class='item core' onclick='eighteenPlay()'>18</button>
+      <button class='item core' onclick='twentyfourPlay()'>24</button>
+      <button class='item core' onclick='thirtyPlay()'>30</button>
+      <button class='item core' onclick='thirtysixPlay()'>36</button>
+      <button class='item core' onclick='fourtytwoPlay()'>42</button>
+      <button class='item core' onclick='fourtyeightPlay()'>48</button>
+      <button class='item core' onclick='fiftyfourPlay()'>54</button>
     </div>
     <div class='table-row'>
       <button class='item header'>7</button>
-      <button class='item core' onmouseover='sevenPlay()'>7</button>
-      <button class='item core' onmouseover='fourteenPlay()'>14</button>
-      <button class='item core' onmouseover='twentyonePlay()'>21</button>
-      <button class='item core' onmouseover='twentyeightPlay()'>28</button>
-      <button class='item core' onmouseover='thirtyfivePlay()'>35</button>
-      <button class='item core' onmouseover='fourtytwoPlay()'>42</button>
-      <button class='item core' onmouseover='fourtyninePlay()'>49</button>
-      <button class='item core' onmouseover='fiftysixPlay()'>56</button>
-      <button class='item core' onmouseover='sixtythreePlay()'>63</button>
+      <button class='item core' onclick='sevenPlay()'>7</button>
+      <button class='item core' onclick='fourteenPlay()'>14</button>
+      <button class='item core' onclick='twentyonePlay()'>21</button>
+      <button class='item core' onclick='twentyeightPlay()'>28</button>
+      <button class='item core' onclick='thirtyfivePlay()'>35</button>
+      <button class='item core' onclick='fourtytwoPlay()'>42</button>
+      <button class='item core' onclick='fourtyninePlay()'>49</button>
+      <button class='item core' onclick='fiftysixPlay()'>56</button>
+      <button class='item core' onclick='sixtythreePlay()'>63</button>
     </div>
     <div class='table-row'>
       <button class='item header'>8</button>
-      <button class='item core' onmouseover='eightPlay()'>8</button>
-      <button class='item core' onmouseover='sixteenPlay()'>16</button>
-      <button class='item core' onmouseover='twentyfourPlay()'>24</button>
-      <button class='item core' onmouseover='thirtytwoPlay()'>32</button>
-      <button class='item core' onmouseover='fourtyPlay()'>40</button>
-      <button class='item core' onmouseover='fourtyeightPlay()'>48</button>
-      <button class='item core' onmouseover='fiftysixPlay()'>56</button>
-      <button class='item core' onmouseover='sixtyfourPlay()'>64</button>
-      <button class='item core' onmouseover='seventytwoPlay()'>72</button>
+      <button class='item core' onclick='eightPlay()'>8</button>
+      <button class='item core' onclick='sixteenPlay()'>16</button>
+      <button class='item core' onclick='twentyfourPlay()'>24</button>
+      <button class='item core' onclick='thirtytwoPlay()'>32</button>
+      <button class='item core' onclick='fourtyPlay()'>40</button>
+      <button class='item core' onclick='fourtyeightPlay()'>48</button>
+      <button class='item core' onclick='fiftysixPlay()'>56</button>
+      <button class='item core' onclick='sixtyfourPlay()'>64</button>
+      <button class='item core' onclick='seventytwoPlay()'>72</button>
     </div>
     <div class='table-row'>
       <button class='item header'>9</button>
-      <button class='item core' onmouseover='ninePlay()'>9</button>
-      <button class='item core' onmouseover='eighteenPlay()'>18</button>
-      <button class='item core' onmouseover='twentysevenPlay()'>27</button>
-      <button class='item core' onmouseover='thirtysixPlay()'>36</button>
-      <button class='item core' onmouseover='fourtyfivePlay()'>45</button>
-      <button class='item core' onmouseover='fiftyfourPlay()'>54</button>
-      <button class='item core' onmouseover='sixtythreePlay()'>63</button>
-      <button class='item core' onmouseover='seventytwoPlay()'>72</button>
-      <button class='item core' onmouseover='eightyonePlay()'>81</button>
+      <button class='item core' onclick='ninePlay()'>9</button>
+      <button class='item core' onclick='eighteenPlay()'>18</button>
+      <button class='item core' onclick='twentysevenPlay()'>27</button>
+      <button class='item core' onclick='thirtysixPlay()'>36</button>
+      <button class='item core' onclick='fourtyfivePlay()'>45</button>
+      <button class='item core' onclick='fiftyfourPlay()'>54</button>
+      <button class='item core' onclick='sixtythreePlay()'>63</button>
+      <button class='item core' onclick='seventytwoPlay()'>72</button>
+      <button class='item core' onclick='eightyonePlay()'>81</button>
     </div>
 </div>
 
